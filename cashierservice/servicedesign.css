@@ -1,0 +1,30 @@
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.button {
+  background: none;
+  border-radius: 24px;
+  border: 2px solid #096f00;
+  border: 0;
+  color: #096f00;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  margin: 20px auto;
+  outline: none;
+  padding: 14px 40px;
+  text-align: center;
+  transition: 0.25s;
+}
+
+.button:hover {
+  background: #096f00;
+  color: #ffffff;
+}
